@@ -23,7 +23,6 @@ class Welcome extends Mailable
     {
         //
         $this->user = $user;
-        $this->user->name = "test contruct";
     }
 
     /**
